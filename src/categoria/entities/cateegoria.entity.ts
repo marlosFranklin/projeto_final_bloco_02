@@ -13,8 +13,6 @@ export class Categoria {
   @Column({ length: 100 })
   nome!: string;
 
-  @Column('decimal', { precision: 10, scale: 2 })
-  price!: number;
   @Column({ default: true })
   ativo!: boolean;
 
