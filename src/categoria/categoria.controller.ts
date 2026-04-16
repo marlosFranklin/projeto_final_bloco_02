@@ -1,7 +1,7 @@
 import { Controller, HttpCode, HttpStatus, ParseIntPipe } from '@nestjs/common';
 import { Get, Post, Put, Delete, Param, Body } from '@nestjs/common';
 import { CategoriaService } from './categoria.service';
-import { Categoria } from './entities/cateegoria.entity';
+import { Categoria } from './entities/categoria.entity';
 
 @Controller('categoria')
 export class CategoriaController {
